@@ -1,0 +1,3 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId,force:hasSObjectName" >
+	<c:technovanzaDemo2 recordId="{!v.recordId}" sObjectName="{!v.sObjectName}"></c:technovanzaDemo2>
+</aura:component>
