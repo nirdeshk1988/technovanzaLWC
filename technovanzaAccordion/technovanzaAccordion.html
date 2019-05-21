@@ -1,0 +1,13 @@
+<template>
+    <lightning-accordion allow-multiple-sections-open onsectiontoggle={handleSectionToggle}
+        active-section-name={activeSections}>
+        <lightning-accordion-section name="A" label="Functionalities Covered in this demo.">
+            <p>1.)<b> Decorators - @api,@track,@wire</b></p>
+            <p>2.)<b> Wire Service - Call apex method via wire service.</b></p>
+            <p>3.)<b> Imperative Method- Call apex method imperatively.</b> </p>
+            <p>4.)<b> Lightning Data Service.</b></p>
+            <p>5.)<b> Custom Event- Pass data from child to parent.</b></p>
+            <p>6.)<b> Aura and LWC Coexistence</b></p>
+        </lightning-accordion-section>      
+    </lightning-accordion>
+</template>

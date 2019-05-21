@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--outside styling of H2 tag-->
+        <style>
+            h2{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>I am outside of shadow DOM</h2>
+        <!--Defination of this component is in counter.js and it also has h2 tag.
+        We can create the custom element with or without shadow dom  but if we create the custom element then css,javascript 
+        leak outside of the element and can impact the other component as well. start is the attribute of counter-webcomponent.
+        -->
+        <counter-webcomponent start=5></counter-webcomponent>       
+    </body>
+    <script src="counter.js" ></script>
+</html>
